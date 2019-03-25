@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3C28FBC2246B01A00C102BA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C28FBB2246B01A00C102BA /* Date+Extension.swift */; };
 		A3C8020722455B2F005178EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8020622455B2F005178EC /* AppDelegate.swift */; };
-		A3C8020922455B2F005178EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8020822455B2F005178EC /* ViewController.swift */; };
 		A3C8020C22455B2F005178EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C8020A22455B2F005178EC /* Main.storyboard */; };
 		A3C8020E22455B31005178EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C8020D22455B31005178EC /* Assets.xcassets */; };
 		A3C8021122455B31005178EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C8020F22455B31005178EC /* LaunchScreen.storyboard */; };
 		A3C8021C22455B31005178EC /* MarshPlay_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8021B22455B31005178EC /* MarshPlay_AssignmentTests.swift */; };
 		A3C8022722455B31005178EC /* MarshPlay_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8022622455B31005178EC /* MarshPlay_AssignmentUITests.swift */; };
+		A3C8023922455CD5005178EC /* Connection Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8023822455CD5005178EC /* Connection Manager.swift */; };
+		A3C8023B22455D04005178EC /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8023A22455D04005178EC /* MovieListViewController.swift */; };
+		A3C8023D22455D1A005178EC /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8023C22455D1A005178EC /* MovieDetailViewController.swift */; };
+		A3C8023F22455D31005178EC /* Movie Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8023E22455D31005178EC /* Movie Model.swift */; };
+		A3C8024222455D5A005178EC /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8024122455D5A005178EC /* MovieCollectionViewCell.swift */; };
+		A3C802442245632F005178EC /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C802432245632F005178EC /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3C28FBB2246B01A00C102BA /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		A3C8020322455B2F005178EC /* MarshPlay Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarshPlay Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C8020622455B2F005178EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3C8020822455B2F005178EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3C8020B22455B2F005178EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3C8020D22455B31005178EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C8021022455B31005178EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		A3C8022222455B31005178EC /* MarshPlay AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MarshPlay AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C8022622455B31005178EC /* MarshPlay_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshPlay_AssignmentUITests.swift; sourceTree = "<group>"; };
 		A3C8022822455B31005178EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C8023822455CD5005178EC /* Connection Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connection Manager.swift"; sourceTree = "<group>"; };
+		A3C8023A22455D04005178EC /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		A3C8023C22455D1A005178EC /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		A3C8023E22455D31005178EC /* Movie Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie Model.swift"; sourceTree = "<group>"; };
+		A3C8024122455D5A005178EC /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3C802432245632F005178EC /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,11 @@
 		A3C8020522455B2F005178EC /* MarshPlay Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				A3C8023722455CB1005178EC /* Models */,
+				A3C8023622455CA7005178EC /* Extensions */,
+				A3C8023522455C98005178EC /* View Controllers */,
+				A3C8023422455C89005178EC /* Connection Manager */,
 				A3C8020622455B2F005178EC /* AppDelegate.swift */,
-				A3C8020822455B2F005178EC /* ViewController.swift */,
 				A3C8020A22455B2F005178EC /* Main.storyboard */,
 				A3C8020D22455B31005178EC /* Assets.xcassets */,
 				A3C8020F22455B31005178EC /* LaunchScreen.storyboard */,
@@ -123,6 +138,49 @@
 				A3C8022822455B31005178EC /* Info.plist */,
 			);
 			path = "MarshPlay AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		A3C8023422455C89005178EC /* Connection Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8023822455CD5005178EC /* Connection Manager.swift */,
+			);
+			path = "Connection Manager";
+			sourceTree = "<group>";
+		};
+		A3C8023522455C98005178EC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8024022455D37005178EC /* Cells */,
+				A3C8023A22455D04005178EC /* MovieListViewController.swift */,
+				A3C8023C22455D1A005178EC /* MovieDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A3C8023622455CA7005178EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3C802432245632F005178EC /* UIImageView+Extension.swift */,
+				A3C28FBB2246B01A00C102BA /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A3C8023722455CB1005178EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8023E22455D31005178EC /* Movie Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3C8024022455D37005178EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8024122455D5A005178EC /* MovieCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3C8020922455B2F005178EC /* ViewController.swift in Sources */,
+				A3C8023D22455D1A005178EC /* MovieDetailViewController.swift in Sources */,
+				A3C8023F22455D31005178EC /* Movie Model.swift in Sources */,
+				A3C802442245632F005178EC /* UIImageView+Extension.swift in Sources */,
+				A3C8023B22455D04005178EC /* MovieListViewController.swift in Sources */,
+				A3C8024222455D5A005178EC /* MovieCollectionViewCell.swift in Sources */,
+				A3C28FBC2246B01A00C102BA /* Date+Extension.swift in Sources */,
+				A3C8023922455CD5005178EC /* Connection Manager.swift in Sources */,
 				A3C8020722455B2F005178EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
